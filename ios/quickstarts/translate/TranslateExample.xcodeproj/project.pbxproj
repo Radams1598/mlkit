@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,8 @@
 		C1E8DDCA22259E3400536A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E8DDC822259E3400536A5C /* Main.storyboard */; };
 		C1E8DDCC22259E3500536A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E8DDCB22259E3500536A5C /* Assets.xcassets */; };
 		C1E8DDCF22259E3500536A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E8DDCD22259E3500536A5C /* LaunchScreen.storyboard */; };
+		D289185C2B6EF53C002AE53A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D289185B2B6EF53C002AE53A /* Podfile */; };
+		D289185D2B6EF53C002AE53A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D289185B2B6EF53C002AE53A /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,7 @@
 		C1E8DDCB22259E3500536A5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E8DDCE22259E3500536A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1E8DDD022259E3500536A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D289185B2B6EF53C002AE53A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 		E7C45F3A2FC5CB6A04E2E3FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D289185B2B6EF53C002AE53A /* Podfile */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -199,6 +203,7 @@
 			files = (
 				108489F8224531B9004D37A8 /* Main.storyboard in Resources */,
 				108489F9224531BF004D37A8 /* LaunchScreen.storyboard in Resources */,
+				D289185D2B6EF53C002AE53A /* Podfile in Resources */,
 				108489F7224531B6004D37A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +214,7 @@
 			files = (
 				C1E8DDCF22259E3500536A5C /* LaunchScreen.storyboard in Resources */,
 				C1E8DDCC22259E3500536A5C /* Assets.xcassets in Resources */,
+				D289185C2B6EF53C002AE53A /* Podfile in Resources */,
 				C1E8DDCA22259E3400536A5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
